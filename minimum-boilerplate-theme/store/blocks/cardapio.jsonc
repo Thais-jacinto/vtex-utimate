@@ -1,0 +1,266 @@
+
+
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    
+    
+    "children": [
+      "menu-item#category-apparel",
+      "menu-item#smartphones",
+      "menu-item#acessorios",
+      "menu-item#Notebooks",
+      "menu-item#computadores",
+      "menu-item#fonesdeouvido"
+    ]
+  },
+  "menu-item#category-apparel": {
+    "props": {
+      "blockClass":"Todasascategorias",
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/all-category/",
+        "noFollow": false,
+        "tagTitle": "todas as categorias",
+        "text": "Todas as Categorias"
+        
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-apparel": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-apparel-1categoriateste",
+      "menu-item#category-apparel-2categoriateste",
+      "menu-item#category-apparel-3categoriateste"
+    ]
+  },
+  "menu-item#category-apparel-1categoriateste": {
+    "props": {
+      "id": "menu-item-category-apparel-1categoriateste",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---categoria/teste/",
+        "noFollow": false,
+        "tagTitle": "1categoriateste",
+        "text": "Categoria Teste"
+      }
+    }
+  },
+  "menu-item#category-apparel-2categoriateste": {
+    "props": {
+      "id": "menu-item-category-apparel-2categoriateste",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---categoria2/teste/",
+        "noFollow": false,
+        "tagTitle": "2categoriateste",
+        "text": "Categoria Teste"
+      }
+    }
+  },
+  "menu-item#category-apparel-3categoriateste": {
+    "props": {
+      "id": "menu-item-category-apparel-3categoriateste",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---categoria3/teste/",
+        "noFollow": false,
+        "tagTitle": "3categoriateste",
+        "text": "Categoria Teste"
+      }
+    }
+  },
+  /////
+  "menu-item#smartphones": {
+    "props": {
+      "id": "menu-item-category-smartphones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/smartphones/",
+        "noFollow": false,
+        "tagTitle": "smartphones",
+        "text": "Smartphones"
+      }
+    }
+  },
+  "menu-item#acessorios": {
+    "props": {
+      "id": "menu-item-category-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios/",
+        "noFollow": false,
+        "tagTitle": "acessorios",
+        "text": "Acessórios"
+      }
+    }
+  },
+  "menu-item#Notebooks": {
+    "props": {
+      "id": "menu-item-category-notebooks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/notebooks/",
+        "noFollow": false,
+        "tagTitle": "notebooks",
+        "text": "Notebooks"
+      }
+    }
+  },
+  "menu-item#computadores": {
+    "props": {
+      "id": "menu-item-category-computadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/computadores/",
+        "noFollow": false,
+        "tagTitle": "computadores",
+        "text": "Computadores"
+      }
+    }
+  },
+  "menu-item#fonesdeouvido": {
+    "props": {
+      "id": "menu-item-category-fonesdeouvido",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fonesdeouvido/",
+        "noFollow": false,
+        "tagTitle": "fonesdeouvido",
+        "text": "Fones de ouvido"
+      }
+    }
+  }
+
+  }
+
+
+
+
+
+// {
+//   "vtex.menu@2.x:menu#websites": {
+//     "props": {
+//       "items": [
+//         {
+//           "id": "Todasascategorias",
+//           "type": "custom",
+//           "highlight": false,
+//           "itemProps": {
+//             "type": "internal",
+//             "href": "#",
+//             "noFollow": false,
+//             "tagTitle": "Shop",
+//             "text": "Todas as Categorias"
+//           }
+//         },
+//         {
+//           "id": "smartphones",
+//           "type": "custom",
+//           "highlight": false,
+//           "itemProps": {
+//             "type": "internal",
+//             "href": "/about-us",
+//             "noFollow": false,
+//             "tagTitle": "about-us",
+//             "text": "Smartphones"
+//           }
+//         },
+//         {
+//         "id": "smartphones",
+//         "type": "custom",
+//         "highlight": false,
+//         "itemProps": {
+//           "type": "internal",
+//           "href": "/about-us",
+//           "noFollow": false,
+//           "tagTitle": "about-us",
+//           "text": "Acessorios"
+//         }
+//       },
+//       {
+//       "id": "smartphones",
+//       "type": "custom",
+//       "highlight": false,
+//       "itemProps": {
+//         "type": "internal",
+//         "href": "/about-us",
+//         "noFollow": false,
+//         "tagTitle": "about-us",
+//         "text": "Notboocks"
+//       }
+//     },
+//     {
+    
+//     "id": "smartphones",
+//     "type": "custom",
+//     "highlight": false,
+//     "itemProps": {
+//       "type": "internal",
+//       "href": "/about-us",
+//       "noFollow": false,
+//       "tagTitle": "about-us",
+//       "text": "Computadores"
+//     }
+//     },
+//     {
+//     "id": "smartphones",
+//     "type": "custom",
+//     "highlight": false,
+//     "itemProps": {
+//       "type": "internal",
+//       "href": "/about-us",
+//       "noFollow": false,
+//       "tagTitle": "categorias",
+//       "text": "Fones de ouvido"
+//     }
+//   }
+    
+//       ]
+//     }
+//   }
+// }

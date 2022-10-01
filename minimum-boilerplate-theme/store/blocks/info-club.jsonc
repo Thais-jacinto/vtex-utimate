@@ -1,0 +1,48 @@
+{
+    "flex-layout.row#sb-text": {
+        "props": {
+          "horizontalAlign": "center",
+          "blockClass": "treeinfocards1",
+          "marginBottom": 5, "marginTop":5
+          
+        },
+        "children": [
+          "info-card#sejaassinante",
+          "info-card#promocoesdiarias",
+          "info-card#acumulepontos"
+        ]
+      },
+      "info-card#sejaassinante": {
+        "props": {
+          "blockClass": "imageassinante",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "callToActionMode": "/assinante",
+          "callToActionText": "SEJA UM ASSINANTE DO NOSSO CLUBE",
+          "imageUrl": "assets/assinante.png",
+          "textAlignment": "center"
+        }
+      },
+      "info-card#promocoesdiarias": {
+        "props": {
+          "blockClass": "imagempromocoes",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "imageUrl": "assets/promo.png",
+          "callToActionMode": "/promocoes",
+          "callToActionText": "PROMOÇÕES DIARIAS - 24 HORAS",
+          "textAlignment": "center"
+        }
+      },
+      "info-card#acumulepontos": {
+        "props": {
+          "blockClass": "imagempontos",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "imageUrl": "assets/score.png",
+          "callToActionMode": "/pontos",
+          "callToActionText": "ACUMULE PONTOS E TROQUE",
+          "textAlignment": "center"
+        }
+      }    
+}

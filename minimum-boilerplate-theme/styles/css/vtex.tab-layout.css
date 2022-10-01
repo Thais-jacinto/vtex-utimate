@@ -1,0 +1,10 @@
+.listContainer {
+    background-color: #23475E;
+}
+.listItemActive--tablistcolor:hover {
+    background-color: #F76161
+    ;
+}
+.listItem--tablistcolor {
+    color: white;
+}

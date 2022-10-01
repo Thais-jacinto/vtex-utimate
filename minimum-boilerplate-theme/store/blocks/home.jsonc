@@ -1,0 +1,89 @@
+{
+  "store.home": { 
+    "blocks": [
+  // "vtex.menu@2.x:menu#websites",
+      // "tab-layout#home",
+      "list-context.image-list#demo",
+      "flex-layout.row#sb-text",
+      "slider-layout#midle",
+      "flex-layout.row#linhas",
+      //  "rich-text#novosprodutos",
+       "rich-text#shelf-title",
+       "flex-layout.row#rich-text-smart",
+       "flex-layout.row#shelf",
+        "list-context.product-list#2",
+        "flex-layout.row#desconto",
+        "flex-layout.row#desc"
+        
+      // "flex-custom#descontocadeira",
+      // "slider-layout#avalicaoesfinais"
+     
+      
+   
+      
+      ] 
+      
+  },
+
+  "product-summary.shelf": {
+    "props":{
+      "margin-left": 5, "marginRight": 5
+    },
+    "children": [
+      // "product-summary-description",
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price"
+      // "product-summary-sku-selector",
+      // "product-summary-buy-button"
+    ]
+  },
+  "list-context.product-list#1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout"]
+  },
+  "product-summary.shelf#2": {
+    "props": {"marginBottom": 7, "marginTop":7},
+    "children": [
+      // "product-summary-description",
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price"
+      // "product-summary-sku-selector",
+      // "product-summary-buy-button"
+    ]
+  },
+  "list-context.product-list#2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["flex-layout.row#smartphones"]
+  }
+
+
+  // "rich-text#novosprodutos": {"props": {
+  //   "blockClass": "novosprodutos",
+  //   "text": "## Novos Produtos",
+  //   "textAlignment": "CENTER",
+  //   "textPosition": "CENTER"
+  // }
+}
+
+// "list-context.product-list#home":{
+//   "blocks":["product-summary.shelf"],
+// "children":["slider-layout"]
+// },
+// "product-summary.shelf":{
+//   "children":["product-summary-name", "product-selling-price", "modal-trigger#quickview"]
+// },
+// "modal-trigger#quickview":{
+//   "children":["product-summary-image","modal-layout#quickview"]
+// },
+// "modal-layout#quickview":{
+//   "children":[
+//     "product-summary-name",
+//     "product-images",
+//     "product-summary-sku-selector",
+//     "product-summary-quantity",
+//     "add-to-cart-button"
+//   ]
+// }
+

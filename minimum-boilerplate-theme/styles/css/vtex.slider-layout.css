@@ -1,0 +1,13 @@
+.sliderArrows--divizinha{
+    display: none; 
+}
+
+.paginationDot {
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+}
+.sliderLayoutContainer--flex-title {
+    padding-top: 71px;
+    padding-bottom: 81px;
+    margin-left: 17px !important;
+}

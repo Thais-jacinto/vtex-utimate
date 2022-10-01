@@ -1,0 +1,73 @@
+{
+
+    "slider-layout#midle":{
+        "children":["info-card#midle1", 
+        "info-card#midle2",
+        "info-card#midle3",
+        "info-card#midle4",
+        "info-card#midle5",
+        "info-card#midle6"
+      ],
+        "props": {
+          "infinite": false,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "divizinha"
+           
+          }
+        },
+      
+        "info-card#midle1": {
+          "props": {
+            "blockClass":"midle1",
+            "imageUrl": "assets/informatica.png",
+            "subhead":"INFORMATICA",
+            "callToActionMode": "none"
+            
+          }
+        },
+      
+        "info-card#midle2": {
+          "props": {
+            "blockClass":"midle1",
+            "imageUrl": "assets/fitness.png",
+            "subhead":"FITNESS",
+            "callToActionMode": "none"
+          }
+        },
+        "info-card#midle3": {
+          "props": {
+            "blockClass":"midle1",
+            "imageUrl": "assets/eletro.png",
+            "subhead":"ELETRODOMÉSTICOS",
+            "callToActionMode": "none"
+          }
+        },
+        "info-card#midle4": {
+          "props": {
+            "blockClass":"midle1",
+            "imageUrl": "assets/celu.png",
+            "subhead":"CELULARES E TELEFONES",
+            "callToActionMode": "none"
+          }
+        },
+        
+    
+        "info-card#midle5": {
+          "props": {
+            "blockClass":"midle1",
+            "imageUrl": "assets/cam.png",
+            "subhead":"CÂMERAS E ACESSORIOS",
+            "callToActionMode": "none"
+          }
+        },
+        
+        "info-card#midle6": {
+          "props": {
+            "blockClass":"midle1",
+            "imageUrl": "assets/games.png",
+            "subhead":"GAMES",
+            "callToActionMode": "none"
+          }
+        }
+
+}

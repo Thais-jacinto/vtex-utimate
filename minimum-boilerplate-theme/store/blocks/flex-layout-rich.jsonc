@@ -1,0 +1,15 @@
+{
+    "flex-layout.row#rich-text-smart":{
+        "props":{
+       "blockClass": "text-smart"
+        },
+        "children":["rich-text#text-smart"]
+    },
+    "rich-text#text-smart":{
+        "props":{
+            "blockClass":"text-smart",
+            "text": "Smartphone"
+        }
+    }
+
+}

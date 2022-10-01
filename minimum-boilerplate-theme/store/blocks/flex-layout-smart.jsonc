@@ -1,0 +1,52 @@
+{
+        
+  "flex-layout.row#smartphones": {
+    "props": { 
+      "blockClass": "smartphones",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "image#smartphones-image",
+      "flex-layout.col#smarthphones2"
+    ]
+  },
+  "flex-layout.col#smarthphones2": {
+  "props": {
+    "blockClass": "smartphones2",
+    "preventHorizontalStretch": true
+ }, "children": [
+    "rich-text#text-smart",
+    "slider-layout#sliderphones"
+]
+  },
+  "image#smartphones-image": {
+    "props": { 
+      "src": "assets/smartphones30.png",
+      "height": 670,
+      "widht": 482
+    }
+  },
+  "slider-layout#sliderphones": {
+    "children":[],
+    "props": {
+        "blockClass":"flex-title",
+      "itemsPerPage": {
+         "desktop": 2, 
+         "tablet": 2,
+          "phone": 2 
+        }
+    }
+  },
+  "product-summary-image": {
+    "props": {
+      "showBadge": true,
+      "height": 140
+    }
+  },"rich-text#text-smart":{
+    "props":{
+        "blockClass":"text-smart",
+        "text": "Smartphone"
+    }
+}
+  
+}

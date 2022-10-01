@@ -1,0 +1,238 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#1desktop",
+      "sticky-layout#2desktop"
+    ]
+  },
+ 
+
+  "sticky-layout#1desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#desktop"]
+  },
+  "flex-layout.row#desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "list-context.image-list#duvidas",
+      "rich-text#seta",
+      "list-context.image-list#favoritos",
+      "rich-text#seta",
+      "list-context.image-list#login",
+      "rich-text#seta2",
+      "list-context.image-list#carrinho",
+      "rich-text#zero"
+      
+      //"barra",
+      // "locale-switcher",
+      // "login",
+      // "minicart.v2"
+     
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "100"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo"
+  ]
+  },
+  "logo": {
+    "props": {
+      "title": "logo",
+      "href": "/",
+      "url": "https://prumo.vtexassets.com/assets/vtex/assets-builder/prumo.minimumtheme/0.1.1/logo___7d72a2d7c12400e60850bffb7dc78d0e.png",
+      "width": "208"
+    }
+  },
+  
+  "header-layout.mobile": {
+    "children": ["sticky-layout#mobile"]
+  },
+  "sticky-layout#mobile": {
+    "children": ["flex-layout.row#mobile"]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "drawer",
+      "logo",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+
+  "drawer": {
+    "children": []
+  },
+  "sticky-layout#2desktop":{
+    "props":{
+      "blockClass": "sticky-cardapio"
+    },
+    "children":["flex-layout.row#desktop-cardapio"]
+  },
+  "flex-layout.row#desktop-cardapio":{
+    "props": {
+      "blockClass":"menu-category",
+      "horizontalAlign": "center",
+      
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+
+
+    },
+    "children":["flex-layout.row#category-menu"]
+  },
+  "flex-layout.row#category-menu":{
+    "props": {
+      "verticalAlign": "middle"
+     
+    },
+    
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+
+  "rich-text#seta":{
+    "props": {
+    "blockClass": "seta",
+    "text": "![alt text](assets/topbar/seta.png)"
+    }
+    },
+    "rich-text#seta2":{
+      "props": {
+      "blockClass": "seta2",
+      "text": "![alt text](assets/topbar/seta.png)"
+      }
+      },
+  "rich-text#zero": { 
+    "props": { 
+      "text": "0",      
+      "textPosition": "CENTER",
+      "blockClass": "0"
+    }
+  },
+  "list-context.image-list#duvidas":
+  {"children": ["slider-layout#duvidas-images"],
+  "props": {
+    "preload": true,
+    "height": 31,
+    "images": [
+      {
+        "image": "assets/header/duvidas.png",
+        "description": "duvidas"
+      }
+    ]
+  }
+},
+
+"slider-layout#duvidas-images": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    }
+   
+  }
+},
+"list-context.image-list#favoritos": {
+  "children": ["slider-layout#favoritos-images"],
+  "props": {
+    "preload": true,
+    "height": 25,
+    "images": [
+      {
+        "image": "assets/header/favoritos.png",
+        "description": "favoritos"
+      }
+    ]
+  }
+},
+
+"slider-layout#favoritos-images": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    }
+  }
+},
+"list-context.image-list#login": {
+  "children": ["slider-layout#login-images"],
+  "props": {
+    "preload": true,
+    "height": 30,
+    "images": [
+      {
+        "image": "assets/header/login.png",
+        "description": "login"
+      }
+    ]
+  }
+},
+
+"slider-layout#login-images": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    }
+  }
+},
+"list-context.image-list#carrinho": {
+  "children": ["slider-layout#carrinho-images"],
+  "props": {
+    "preload": true,
+    "height": 27,
+    "images": [
+      {
+        "image": "assets/header/carrinho.png",
+        "description": "carrinho"
+      }
+    ]
+  }
+},
+
+"slider-layout#carrinho-images": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    }
+  }
+}
+}
+

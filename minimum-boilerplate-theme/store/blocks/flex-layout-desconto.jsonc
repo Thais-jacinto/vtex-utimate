@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#desconto": {
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true
+        },
+        "children": [     
+          "rich-text#reta"      
+        ]
+      
+        },"rich-text#reta":{
+          "props": {
+          "blockClass": "reta",
+          "text": "![alt text](assets/desconta.png)"
+          }
+          
+          }
+}

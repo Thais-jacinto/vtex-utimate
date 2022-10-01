@@ -1,0 +1,73 @@
+{
+    "flex-layout.row#linhas": {
+        "props": {
+          "blockClass": "imageslinhas",
+          "horizontalAlign": "center", "preventHorizontalStretch": true,
+          "width": 380,
+          "height": 380
+        },
+        "children": [ "image#fone", "image#pc", "image#linhaapple" ]
+      },
+      "image#fone": {
+        "props": {
+        "src":"assets/linhafone.png", 
+        "alt": "linha fones gamer",
+        "width": 380,
+        "height": 380
+     
+        }
+      },
+      "image#pc": {
+        "props": {
+          "src":"assets/linhapc.png", 
+          "alt":"linha pc's gamer",
+          "width": 380,
+        "height": 380
+        }
+      },
+      "image#linhaapple": {
+        "props": {
+          "blockClass": "imageslinha3",
+          "src":"assets/linhaapple.png",
+           "alt": "linha apple",
+           "width": 380,
+           "height": 380
+        }
+      }
+
+
+//     "flex-layout.row#linha": {
+//         "children": [
+//             // "info-card#linhas", 
+//         "flex-layout.row#linhas"]
+//       },
+//       "flex-layout.row#linhas":{
+//         "props":{
+//             "blockClass":"linhas"
+//         },
+//         "children":["image#fones", "image#pc", "image#linhaapple"]
+
+//       },
+      
+//   "image#fones": {
+//     "props": {
+//         "blockClass": "linha",
+//       "src": "assets/linhafone.png",
+//       "maxWidth": "100%"
+//     }
+// },
+// "image#pc":{
+//     "props":{
+//         "blockClass": "linha",
+//         "src": "assets/linhapc.png",
+//         "maxWidth":""
+//     }
+// },
+// "image#linhaapple":{
+//     "props":{
+//         "blockClass": "linha",
+//         "src":"assets/linhaapple.png",
+//         "maxWidth":"100%"
+//     }
+// }
+}
