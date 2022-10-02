@@ -17,7 +17,7 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#desktop"]
+    "children": ["flex-layout.row#desktop"]  ///erro
   },
   "flex-layout.row#desktop": {
     "props": {
@@ -125,13 +125,13 @@
   "rich-text#seta":{
     "props": {
     "blockClass": "seta",
-    "text": "![alt text](assets/topbar/seta.png)"
+    "text": "![alt text](assets/reta.png)"
     }
     },
     "rich-text#seta2":{
       "props": {
       "blockClass": "seta2",
-      "text": "![alt text](assets/topbar/seta.png)"
+      "text": "![alt text](assets/retaa.png)"
       }
       },
   "rich-text#zero": { 
@@ -148,7 +148,7 @@
     "height": 31,
     "images": [
       {
-        "image": "assets/header/duvidas.png",
+        "image": "assets/faq.png",
         "description": "duvidas"
       }
     ]
@@ -172,7 +172,7 @@
     "height": 25,
     "images": [
       {
-        "image": "assets/header/favoritos.png",
+        "image": "assets/favorito.png",
         "description": "favoritos"
       }
     ]
@@ -195,7 +195,7 @@
     "height": 30,
     "images": [
       {
-        "image": "assets/header/login.png",
+        "image": "assets/usuario.png",
         "description": "login"
       }
     ]
@@ -218,7 +218,7 @@
     "height": 27,
     "images": [
       {
-        "image": "assets/header/carrinho.png",
+        "image": "assets/carrinho.png",
         "description": "carrinho"
       }
     ]

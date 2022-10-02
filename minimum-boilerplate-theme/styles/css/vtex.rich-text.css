@@ -16,3 +16,193 @@ margin-left: 39px;
    
     height: 280px;
 }
+.container--produtopromo{
+    margin-top: 307px;
+    display: flex;
+    justify-content: center;
+}
+.image--iphone{
+    width: 100px;
+    height: 100px;
+}.image--star{
+    width: 121px;
+    height: 19px;
+}.paragraph--lorem{
+    max-width: 351px;
+    height: 111px; ;
+}.paragraph--iphonett{
+font-size: 14px;
+font-weight: 700;
+text-align: center;
+}.paragraph--data{
+    font-family: Ubuntu;
+font-size: 14px;
+font-style: italic;
+font-weight: 400;
+text-align: center;
+margin-top: -10px;
+}
+/*--------------*/
+.image--tv{
+    margin-top: 30px;
+    
+}.image--startv{
+    width: 121px;
+    height: 19px;
+    margin-top: 18px;
+}
+.image--starcafone{
+    width: 121px;
+    height: 19px;
+    margin-top: 18px;
+}.image--cafone{
+    margin-top: 5px;
+}
+.paragraph--lorem{
+    font-size: 14px;
+    max-width: 351px;
+    }
+    .paragraph--loremtv{
+        font-size: 14px;
+        max-width: 351px;
+      
+    }
+    .heading--Title3{
+        margin-left: 80px;
+    }
+    .paragraph--Title4{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 83px;
+    color: #23475E;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+    .image--Title4{
+        align-items: center;
+        width: 33px;
+    }
+    .image--Title4{
+        margin-bottom: 19px;
+    }
+    .container--seguir-button{
+        margin-top: 300px;
+        display: flex;
+    justify-content: center;
+    }
+    .paragraph--seguir-button{
+    background-color: #FFFFFF;
+    color: #23475E ;
+     border:#23475E solid 1px;
+     border-radius: 10px;
+     box-sizing: border-box;
+     padding: 13px;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+
+    }
+    .container--fique{
+        background: #F76161 ;
+    }
+    
+    .image--iprumo{
+        margin-right: 270px;
+    }.wrapper--face{
+        margin-top: 30px;
+        padding-right: 80px
+    }
+    .paragraph--insti{
+        font-size: 15px;
+        font-weight: 700;
+        color: #23475E;
+    }.paragraph--sobre{
+        font-size: 15px;
+        font-weight: 400;
+        color: #23475E;
+        cursor: pointer;
+    }.paragraph--lojas{
+        font-size: 15px;
+        font-weight: 400;
+        color: #23475E;
+        margin-top: -10px;
+        cursor: pointer;
+    }.paragraph--blog{
+        font-size: 15px;
+        font-weight: 400;
+        color: #23475E;
+        margin-top: -10px;
+        cursor: pointer;
+    }
+    .container--face{
+        width: 300px;
+    }
+    .paragraph--privi{
+        width: 200px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #23475E; 
+        cursor: pointer;
+    }.paragraph--trocas{
+        width: 200px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #23475E;
+        margin-top: -5px;
+        cursor: pointer;
+    }.paragraph--poli{
+        font-size: 15px;
+        font-weight: 700;
+        color: #23475E;
+    }.paragraph--formas{
+        width: 200px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #23475E;
+        margin-top: -5px;
+        cursor: pointer;
+    }.paragraph--frete{
+        width: 200px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #23475E;
+        margin-top: -5px;
+        cursor: pointer;
+    }.paragraph--ajudar{
+        font-size: 15px;
+        font-weight: 700;
+        color: #23475E;
+    }
+    .paragraph--freq{
+        width: 200px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #23475E; 
+        cursor: pointer;
+    }
+    .paragraph--comprar{
+        width: 200px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #23475E;
+        margin-top: -10px;
+        cursor: pointer;
+    }.paragraph--conos{
+        width: 200px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #23475E;
+        margin-top: -10px;
+        cursor: pointer;
+    }
+    .wrapper--face{
+        margin-left: 10px;
+    }
+    

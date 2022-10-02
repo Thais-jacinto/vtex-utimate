@@ -9,12 +9,25 @@
       "flex-layout.row#linhas",
       //  "rich-text#novosprodutos",
        "rich-text#shelf-title",
-       "flex-layout.row#rich-text-smart",
        "flex-layout.row#shelf",
         "list-context.product-list#2",
         "flex-layout.row#desconto",
-        "flex-layout.row#desc"
+        "flex-layout.row#desc",
+        // "rich-text#produtospromo",
+        "rich-text#shelf-title2",
+        "flex-layout.row#shelf2",
+        "stack-layout#descontolive",
+        // "rich-text#depoimentos",
+        "flex-layout.row#depoimento",
+        "flex-layout.row#depoit",
+        "flex-layout.row#instagram",
+        "flex-layout.row#tresimageprumo",
+        "rich-text#button-seguir",
+        "rich-text#fique",
+        "flex-layout.row#fiquep",
+        "flex-layout.row#footerv"
         
+        // "flex-layout.col#newslatter",
       // "flex-custom#descontocadeira",
       // "slider-layout#avalicaoesfinais"
      
@@ -56,6 +69,14 @@
   "list-context.product-list#2": {
     "blocks": ["product-summary.shelf"],
     "children": ["flex-layout.row#smartphones"]
+  },
+  "rich-text#fique": { 
+    "props": { 
+      "text": "Fique pordentro de todas as nossa novidades!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "fique"
+    }
   }
 
 

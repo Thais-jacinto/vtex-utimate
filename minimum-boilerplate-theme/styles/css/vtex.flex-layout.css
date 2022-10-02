@@ -57,3 +57,67 @@
 /* .stretchChildrenWidth-- desc07{
 
 } */
+.flexRow--desconto07 {
+  height: 600px;
+}
+.flexCol--depoiiphone{   
+  height: 400px;
+  width: 390px;    
+  background: #fff;
+  margin-right: -15px;
+}.flexCol--depoitv{   
+  height: 400px;    
+  width: 390px;   
+  background: #fff;       
+}.flexCol--depoicafone{   
+  height: 400px;     
+  width: 390px; 
+  background: #fff;   
+  margin-left: -90px;   
+}
+
+.flexRow--depoit{
+  height: 400px;
+  padding-left: 150px;
+  background: #FCFCFC;
+}.flexRow--bolls2{
+  background: #FCFCFC;
+}
+.flexRow--depoit{
+  
+  margin-right: 41px;
+
+}
+.flexRowContent--image-prumo2{
+  margin-top: 300px;
+  height: 300px;
+}.flexRowContent--fiquep{
+ background-color:#F76161 ; 
+ width: 100%;
+}
+.flexRow--footer{
+  height: 250px;
+  
+}
+.flexRowContent--footer{
+  width: 515px;
+  margin-top: 70px;
+}
+.flexCol--iprumo{
+  height: 70px;   
+  margin-left: 600px; 
+}.flexCol--inst{
+  width: 100px;
+  height: 100px;
+  margin-left: 1300px;   
+}
+.flexCol--poli{
+  width: 100px;
+  height: 100px;
+  margin-left: 1400px;   
+}
+.flexCol--ajuda{
+  width: 100px;
+  height: 100px;
+  margin-left: 1600px;   
+}

@@ -1,0 +1,117 @@
+{"flex-layout.row#footerv": {
+    "props": {
+    "blockClass": "footer"},
+
+  "children": [ "flex-layout.col#image-prumo","flex-layout.col#list-institucional","flex-layout.col#list-politicas","flex-layout.col#list-ajuda"]
+},
+"flex-layout.col#image-prumo": {
+    "props": {
+        "horizontalAlign": "center",
+        "blockClass": "iprumo"                    
+      },
+  "children": ["rich-text#image-prumo","rich-text#text-lorem","rich-text#image-face"]
+
+},"rich-text#image-prumo": {
+  "props": {
+"blockClass": "iprumo",
+    "text": "![alt text](assets/logofina.png)"
+ }
+},"rich-text#text-lorem": {
+  "props": {
+"blockClass": "loremf",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+ }
+},"rich-text#image-face": {
+    "props": {
+  "blockClass": "face",
+      "text": "![alt text](assets/facebook.png)    ![alt text](assets/instagramlogo.png)   ![alt text](assets/twitter.png)   ![alt text](assets/youtube.png)"
+   }
+  },
+  "flex-layout.col#list-institucional": {
+      "props": {
+          "blockClass": "inst"                    
+        },
+    "children": ["rich-text#text-insti","rich-text#text-sobre","rich-text#text-lojas",
+"rich-text#text-blog"]
+  
+  },"rich-text#text-insti": {
+    "props": {
+  "blockClass": "insti",
+      "text": "INSTITUCIONAL"
+   }
+  },"rich-text#text-sobre": {
+    "props": {
+  "blockClass": "sobre",
+      "text": "Sobre Nós"
+   }
+  },"rich-text#text-lojas": {
+    "props": {
+  "blockClass": "lojas",
+      "text": "Nossas Lojas"
+   }
+  },"rich-text#text-blog": {
+    "props": {
+  "blockClass": "blog",
+      "text": "Blog"
+   }
+  },
+  "flex-layout.col#list-politicas": {
+    "props": {
+        "blockClass": "poli"                    
+      },
+  "children": ["rich-text#text-poli","rich-text#text-privi","rich-text#text-trocas","rich-text#text-formas", "rich-text#text-frete"]
+
+},"rich-text#text-poli": {
+  "props": {
+"blockClass": "poli",
+    "text": "POLÍTICAS"
+ }
+},"rich-text#text-privi": {
+  "props": {
+"blockClass": "privi",
+    "text": "Política de Privacidade"
+ }
+},"rich-text#text-trocas": {
+  "props": {
+"blockClass": "trocas",
+    "text": "Trocas e Devoluções"
+ }
+},"rich-text#text-formas": {
+  "props": {
+"blockClass": "formas",
+    "text": "Formas de Pagamento"
+ }
+},"rich-text#text-frete": {
+  "props": {
+"blockClass": "frete",
+    "text": "Regra de Frete Grátis"
+ }
+},
+"flex-layout.col#list-ajuda": {
+    "props": {
+        "blockClass": "ajuda"                    
+      },
+  "children": ["rich-text#text-ajuda","rich-text#text-freq","rich-text#text-comprar","rich-text#text-conos"]
+
+},"rich-text#text-ajuda": {
+  "props": {
+"blockClass": "ajudar",
+    "text": "AJUDA"
+ }
+},"rich-text#text-freq": {
+  "props": {
+"blockClass": "freq",
+    "text": "Perguntas Frequentes"
+ }
+},"rich-text#text-comprar": {
+  "props": {
+"blockClass": "comprar",
+    "text": "Como Comprar"
+ }
+},"rich-text#text-conos": {
+  "props": {
+"blockClass": "conos",
+    "text": "Fale Conosco"
+ }
+}
+}

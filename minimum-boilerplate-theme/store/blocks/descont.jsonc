@@ -3,7 +3,7 @@
     "children": [ "image#cadeg",
       "flex-layout.col"],
     "props":{
-      "blockClass": "desc07"
+      "blockClass": "desconto07"
     }
     },
     "flex-layout.col": {
@@ -12,21 +12,21 @@
     },
     "image#cadeg": {
       "props": {
-          "src": "assets/cadeira.png",
+          "src": "assets/cadeg.png",
         "blockClass": "cadeg",
         "maxWidth": "100%"
       }
     },
     "image#electronics": {
       "props": {
-        "src": "assets/drone.png",
+        "src": "assets/trone.png",
         "maxWidth": "100%",
         "blockClass": "trone"
       }
     },
     "image#major-appliance": {
       "props": {
-        "src": "assets/panela.png",
+        "src": "assets/cadep.png",
         "maxWidth": "100%",
         "blockClass": "cadep"
       }

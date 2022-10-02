@@ -19,7 +19,7 @@
         "info-card#midle1": {
           "props": {
             "blockClass":"midle1",
-            "imageUrl": "assets/informatica.png",
+            "imageUrl": "assets/informaticaa.png",
             "subhead":"INFORMATICA",
             "callToActionMode": "none"
             
@@ -29,7 +29,7 @@
         "info-card#midle2": {
           "props": {
             "blockClass":"midle1",
-            "imageUrl": "assets/fitness.png",
+            "imageUrl": "assets/fitness1.png",
             "subhead":"FITNESS",
             "callToActionMode": "none"
           }
@@ -37,7 +37,7 @@
         "info-card#midle3": {
           "props": {
             "blockClass":"midle1",
-            "imageUrl": "assets/eletro.png",
+            "imageUrl": "assets/eletro1.png",
             "subhead":"ELETRODOMÉSTICOS",
             "callToActionMode": "none"
           }
@@ -45,7 +45,7 @@
         "info-card#midle4": {
           "props": {
             "blockClass":"midle1",
-            "imageUrl": "assets/celu.png",
+            "imageUrl": "assets/celular.png",
             "subhead":"CELULARES E TELEFONES",
             "callToActionMode": "none"
           }
@@ -55,7 +55,7 @@
         "info-card#midle5": {
           "props": {
             "blockClass":"midle1",
-            "imageUrl": "assets/cam.png",
+            "imageUrl": "assets/camera.png",
             "subhead":"CÂMERAS E ACESSORIOS",
             "callToActionMode": "none"
           }

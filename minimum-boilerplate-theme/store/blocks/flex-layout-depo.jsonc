@@ -1,0 +1,131 @@
+{
+    "flex-layout.row#depoimento":{
+        "props":{
+        "blockClass": "text-depo"
+        },
+        "children":["rich-text#title3"]
+    },
+     "rich-text#title3": {
+        "props": {
+          "text": "###  Depoimentos",
+          "blockClass": "Title3",
+          "textAlignment": "CENTER",
+           "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#depoit": {
+        "props": {
+        "blockClass": "depoit"},
+
+      "children": [ "flex-layout.col#text-teste","flex-layout.col#tv-teste","flex-layout.col#cafone-teste"]
+    },
+    "flex-layout.col#text-teste": {
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "depoiiphone"                    
+          },
+      "children": ["rich-text#iphone-content","rich-text#star-content","rich-text#lorem-content","rich-text#title","rich-text#date-content"]
+    
+    },"rich-text#iphone-content": {
+      "props": {
+	"blockClass": "iphone",
+        "text": "![alt text](assets/iphone.png)"
+     }
+    },"rich-text#star-content": {
+      "props": {
+	"blockClass": "star",
+        "text": "![alt text](assets/estrelas.png)"
+     }
+    },
+"rich-text#lorem-content": {
+      "props": {
+	"blockClass": "lorem",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa."
+      }
+    },
+    "rich-text#title": {
+      "props": {
+	"blockClass": "iphonett",
+        "text": "PEDRO AUGUSTO"
+      }
+    },
+    "rich-text#date-content": {
+      "props": {
+	"blockClass": "data",
+        "text": "01/01/2021"
+      }
+    },
+    "flex-layout.col#tv-teste": {
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "depoitv"                    
+          },
+      "children": ["rich-text#tv-content","rich-text#startv-content","rich-text#loremtv-content","rich-text#titletv","rich-text#datetv-content"]
+    
+    },"rich-text#tv-content": {
+      "props": {
+	"blockClass": "tv",
+        "text": "![alt text](assets/tv.png)"
+     }
+    },"rich-text#startv-content": {
+      "props": {
+	"blockClass": "startv",
+        "text": "![alt text](assets/estrelas.png)"
+     }
+    },
+"rich-text#loremtv-content": {
+      "props": {
+	"blockClass": "lorem",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa."
+      }
+    },
+    "rich-text#titletv": {
+      "props": {
+	"blockClass": "iphonett",
+        "text": "PEDRO AUGUSTO"
+      }
+    },
+    "rich-text#datetv-content": {
+      "props": {
+	"blockClass": "data",
+        "text": "01/01/2021"
+      }
+    },
+    "flex-layout.col#cafone-teste": {
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "depoicafone"                    
+          },
+      "children": ["rich-text#cafone-content","rich-text#starcafone-content","rich-text#loremcafone-content","rich-text#titlecafone","rich-text#datecafone-content"]
+    
+    },"rich-text#cafone-content": {
+      "props": {
+	"blockClass": "cafone",
+        "text": "![alt text](assets/depofone.png)"
+     }
+    },"rich-text#starcafone-content": {
+      "props": {
+	"blockClass": "starcafone",
+        "text": "![alt text](assets/estrelas.png)"
+     }
+    },
+"rich-text#loremcafone-content": {
+      "props": {
+	"blockClass": "loremtv",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa."
+      }
+    },
+    "rich-text#titlecafone": {
+      "props": {
+	"blockClass": "iphonett",
+        "text": "PEDRO AUGUSTO"
+      }
+    },
+    "rich-text#datecafone-content": {
+      "props": {
+	"blockClass": "data",
+        "text": "01/01/2021"
+      }
+    }
+  
+}

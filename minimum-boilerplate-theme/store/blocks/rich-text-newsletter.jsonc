@@ -1,0 +1,46 @@
+{"flex-layout.row#fiquep": {
+    "props": {
+    "blockClass": "fiquep",
+    "width":"100%"
+},
+    
+  "children": [ "flex-layout.col#text-nome","flex-layout.col#email-text","flex-layout.col#cadastrar-text"]
+},
+"flex-layout.col#text-nome": {
+    "props": {
+        "horizontalAlign": "center",
+        "blockClass": "nomeb"                    
+      },
+  "children": ["rich-text#nome-content"]
+
+},"rich-text#nome-content": {
+  "props": {
+"blockClass": "nome",
+    "text": "Seu nome"
+ }
+},"flex-layout.col#email-text": {
+    "props": {
+        "horizontalAlign": "center",
+        "blockClass": "emailb"                    
+      },
+  "children": ["rich-text#email-content"]
+
+},"rich-text#email-content": {
+  "props": {
+"blockClass": "email",
+    "text": "Seu e-mail"
+ }
+},"flex-layout.col#cadastrar-text": {
+    "props": {
+        "horizontalAlign": "center",
+        "blockClass": "cadastrarb"                    
+      },
+  "children": ["rich-text#cadastrar-content"]
+
+},"rich-text#cadastrar-content": {
+  "props": {
+"blockClass": "cadastrar",
+    "text":"[CADASTRAR](https://www.example.com)"
+ }
+}
+}

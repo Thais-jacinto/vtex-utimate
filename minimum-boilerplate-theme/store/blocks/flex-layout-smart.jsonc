@@ -21,7 +21,7 @@
   },
   "image#smartphones-image": {
     "props": { 
-      "src": "assets/smartphones30.png",
+      "src": "assets/smartphone30.png",
       "height": 670,
       "widht": 482
     }
@@ -42,11 +42,45 @@
       "showBadge": true,
       "height": 140
     }
-  },"rich-text#text-smart":{
+  },
+  "rich-text#text-smart":{
     "props":{
         "blockClass":"text-smart",
         "text": "Smartphone"
     }
+},
+"stack-layout#descontolive": {
+  "props": {
+    "marginTop": 20
+  },
+  "children": [
+   
+    "image#stackdesconto",
+    "link#stackdesconto"
+  ]
+},
+"image#stackdesconto": {
+  "props": {
+    "src":"assets/descontolive.png", "alt":"desconto live 15/19"
+    // "maxWidth": 1170, "maxHeight": 234
+  }
+},
+"link#stackdesconto": {
+  "props": {
+    "blockClass": "botaoDesconto",
+    "displayMode": "button",
+    "buttonProps": {
+      "size": "large",
+      "variant": "primary",
+      "TextPosition": "center"
+    },
+    "href":"/desconto",
+    "label": "Participe"
+  }
 }
   
 }
+
+
+
+

@@ -1,0 +1,42 @@
+{
+"flex-layout.row#instagram":{
+    "props":{
+        "blockClass": "text-instagram"
+        },
+        "children":["rich-text#title4"]
+    },
+     "rich-text#title4": {
+        "props": {
+          "blockClass": "Title4",
+          "text": "![Instagram](assets/instagram.png)Instagram",
+          "textAlignment": "CENTER",
+           "textPosition": "CENTER"
+        }
+   },
+
+   
+   "flex-layout.row#tresimageprumo": {
+    "children": ["image#tresimageprumo"],
+    "props": {
+        "blockClass":"image-prumo2",
+      "horizontalAlign": "center",
+      "marginTop": 5, "marginBottom": 5
+    }
+  },
+  "image#tresimageprumo": {
+    "props": {
+        "blockClass": "image-prumo2",
+        "src":"assets/prumo2.png"
+    }
+  },
+//----
+  
+  "rich-text#button-seguir":{
+   "props":{
+    "blockClass": "seguir-button",
+    "text": "Seguir"
+
+   }
+  }
+    
+}

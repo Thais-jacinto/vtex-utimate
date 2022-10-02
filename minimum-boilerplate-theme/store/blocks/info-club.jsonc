@@ -19,7 +19,7 @@
           "textPosition": "right",
           "callToActionMode": "/assinante",
           "callToActionText": "SEJA UM ASSINANTE DO NOSSO CLUBE",
-          "imageUrl": "assets/assinante.png",
+          "imageUrl": "assets/assinanteclube.png",
           "textAlignment": "center"
         }
       },
@@ -28,7 +28,7 @@
           "blockClass": "imagempromocoes",
           "isFullModeStyle": false,
           "textPosition": "right",
-          "imageUrl": "assets/promo.png",
+          "imageUrl": "assets/promoo.png",
           "callToActionMode": "/promocoes",
           "callToActionText": "PROMOÇÕES DIARIAS - 24 HORAS",
           "textAlignment": "center"
@@ -39,7 +39,7 @@
           "blockClass": "imagempontos",
           "isFullModeStyle": false,
           "textPosition": "right",
-          "imageUrl": "assets/score.png",
+          "imageUrl": "assets/scoree.png",
           "callToActionMode": "/pontos",
           "callToActionText": "ACUMULE PONTOS E TROQUE",
           "textAlignment": "center"

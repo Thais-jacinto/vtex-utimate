@@ -1,0 +1,34 @@
+{
+    "rich-text#shelf-title2": {
+        "props": {
+          "text": "### Produtos em Promoção",
+          "blockClass": "shelfTitle2",
+          "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+        }
+      },
+      "flex-layout.row#shelf2":{
+        "children":["list-context.product-list#shelfmid"]
+      },
+      "list-context.product-list#shelfmid":{ 
+        "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-pratileira"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+},
+"slider-layout#demo-pratileira":{
+    
+"props": {
+    "itemsPerPage": {
+      "desktop": 4,
+      "tablet": 3,
+      "phone": 1
+    },
+    "infinite": true,
+    "fullWidth": false,
+    "blockClass": "shelf2"
+  }
+}
+     
+}
